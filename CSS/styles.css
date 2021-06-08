@@ -1,0 +1,78 @@
+/* Tags css */
+body{
+  margin: 0;
+  font-size: 15px;
+  font-family: "Spartan";
+  color: hsl(300, 43%, 22%);
+}
+
+h1{
+  margin: 0;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Background image */
+.bg-img{
+  position: absolute;
+  width: 100%;
+}
+
+/* titles */
+.container-fluid {
+  padding: 3rem 5rem;
+}
+
+.box{
+  padding: 70px;
+}
+
+.text-box{
+  display: inline-block;
+  width: 50%;
+  background-color: red;
+  position: absolute;
+}
+
+.star-box{
+  width: 50%;
+  background-color: blue;
+  position: relative;
+  left: 50%;
+}
+
+.clear{
+  clear: both;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card-col {
+  padding: 3% 1%;
+}
+
+.my-rating {
+  margin: auto;
+}
+
+.rating {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width:375px) {
+  .head-section {
+    text-align: center;
+  }
+}
