@@ -20,7 +20,7 @@ h1{
 
 /* titles */
 .container-fluid {
-  padding: 3rem 5rem;
+  padding: 5% 10%;
 }
 
 .box{
@@ -54,7 +54,46 @@ h1{
 }
 
 .card-col {
-  padding: 3% 1%;
+  padding: 1% 1%;
+}
+
+.card {
+  color: hsl(300, 24%, 96%);
+  background-color: hsl(300, 43%, 22%);
+}
+
+.card-header {
+  padding: 20px 30px 0;
+}
+
+.card-header h5 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.card-header  p {
+  color: hsl(333, 80%, 67%);
+  font-weight: light;
+}
+
+.card-body {
+  padding: 0 30px 20px;
+}
+
+
+#card-1 {
+  padding-top: 3rem;
+}
+
+#card-2 {
+  padding-top: 5rem;
+}
+
+.card-img {
+  border-radius: 100%;
+  width: 42px;
+  float: left;
+  margin-right: 1.1rem;
 }
 
 .my-rating {
@@ -62,13 +101,42 @@ h1{
 }
 
 .rating {
-  border-style: solid;
-  border-radius: 5px;
-  border-width: 2px;
-  margin: auto;
   padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  display: flex;
+}
+
+.start {
+  justify-content:flex-start;
+  align-items: flex-start;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.perso-rate {
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+  padding: 10px 50px 10px 5px;
+}
+
+.perso-rate span {
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.first-star {
+  margin-left: 16px;
+}
+
+.last-star {
+  margin-right: 10px;
 }
 
 @media (max-width:375px) {
